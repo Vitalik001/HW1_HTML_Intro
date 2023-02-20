@@ -2,9 +2,235 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Index</title>
+    <link rel="stylesheet" href="style.css"></link>
 </head>
 <body>
+  <div class="header">
+    <!-- background image in css  -->
+      <header class = "nav-bar">
+          <span class="logo">Trello</span>
+          <nav>
+            <ul>
+                <li><a href="#">Review</a></li>
+                <li><a href="#">Tips</a></li>
+                <li><a href="#">Alerts</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><button>Blog</button></li>
+            </ul>
+          </nav>
+        </header>
+    <main class="banner">
+      <h1 class= "banner-header">
+        Discover Your Life, Travel Where You Want
+      </h1>
+      <p class="banner-text">
+        Would you explore natur paradise in the world, let’s find the best destination in world with us.
+      </p>
+    </main>
+    <container class="trip-info">
+    <span class="buttons">
+      <button class="flight/hotel"> &#9992 Flight</button>
+      <button class="flight/hotel"> &#xf594 Hotel</button>
+    </span>
+    <section class="trip-details">
+      <form class="destination">
+        <label for="Leaving from">Leaving from</label>
+        <input class="input" type="search" placeholder="From">
+        <img src="images/Airplane Mode On (1).png">
+        <label for="Going to">Going to</label>
+        <input class="input" type = "search" placeholder="To">
+      </form>
+      <form class="Date">
+        <label for="Leave">Leave &#9992</label>
+        <input type="date" id="start" name="trip-start"
+        value="2018-07-22"
+        min="2018-01-01" max="2018-12-31">
+        <img src="images/Planner.png">
+        <label for="Return">Return &#9992</label>
+        <input type="date" id="start" name="trip-start"
+        value="2018-07-22"
+        min="2018-01-01" max="2018-12-31">
+      </form>
+      <button> &#x1F50D</button>
+    </section>
+    </container>
+  </div>
+    <div class="upcomming-offers">
+      <h1>Special Upcoming Offers</h1>
+      <nav class = "type">
 
+        <input type="radio" id="team" value="Team">
+        <label for="team">Team</label><br>
+
+        <input type="radio" id="couple" value="Couple">
+        <label for="couple">Couple</label><br>
+
+        <input type="radio" id="family" value="Family">
+        <label for="family">Family</label><br>
+
+      </nav>
+      <container class="destination-container">
+        <img class = "destination-img" src = "images/offer1.png">
+        <span>14 feb 2022</span>
+        <main class="general-info">
+          <div class="type/duration">
+            <span>Relax</span>
+            <span>3 Days, 3 Nights</span>
+          </div>
+          <div class="location">
+            <h1>Loga sea</h1>
+          </div>
+          <div class="price">
+            <p>700$/Person</p>
+          </div>
+          <button>Book now</button>
+        </main>
+      </container>
+      <container class="destination-container">
+        <img class = "destination-img" src = "images/offer2.png">
+        <span>14 feb 2022</span>
+        <main class="general-info">
+          <div class="type/duration">
+            <span>Relax</span>
+            <span>3 Days, 3 Nights</span>
+          </div>
+          <div class="location">
+            <h1>Loga sea</h1>
+          </div>
+          <div class="price">
+            <p>700$/Person</p>
+          </div>
+          <button>Book now</button>
+        </main>
+      </container>
+      <container class="destination-container">
+        <img class = "destination-img" src = "images/offer3.png">
+        <span>14 feb 2022</span>
+        <main class="general-info">
+          <div class="type/duration">
+            <span>Relax</span>
+            <span>3 Days, 3 Nights</span>
+          </div>
+          <div class="location">
+            <h1>Loga sea</h1>
+          </div>
+          <div class="price">
+            <p>700$/Person</p>
+          </div>
+          <button>Book now</button>
+        </main>
+      </container>
+    </div>
+    <div class="general-info">
+      <div class="right-image">
+        <img src="images/contact.png">
+        <span class="text-container">
+          <p>5000+</p>
+          <p>Tourists</p>
+        </span>
+        <span class="text-container">
+          <p>300+</p>
+          <p>Destinations</p>
+        </span>
+        <span class="text-container">
+          <p>150+</p>
+          <p>Hotels</p>
+        </span>
+      </div>
+      <main class="left-text">
+        <h1>
+          Travel Any Corner of The World With Us
+        </h1>
+        <p>
+          Would you explore nature paradise in the world, let’s find the best destination in world with us, Would you explore nature paradise in the world, let’s find the best destination in world with us. Would you explore nature paradise in the world, let’s find the best destination in world with us.
+        </p>
+        <p>
+          Would you explore nature paradise in the world, let’s find the best destination in world with us.
+        </p>
+        <button>
+          Contact us
+        </button>
+      </main>
+    </div>
+    <div class="recomended-dest">
+      <h1>
+        Recommended Destination
+      </h1>
+      <nav class = "type">
+
+        <input type="radio" id="popular" value="popular">
+        <label for="popular">Popular</label><br>
+
+        <input type="radio" id="adventure" value="Adventure">
+        <label for="adventure">Adventure</label><br>
+
+        <input type="radio" id="beath" value="Beath">
+        <label for="beath">Beath</label><br>
+
+      </nav>
+      <container class="dest-container">
+        <img src="images/dest1.png">
+        <p>&#11088 3.4</p>
+        <p>Kina Mountain</p>
+        <p>&#8982 Cambodia</p>
+      </container>
+      <container class="dest-container">
+        <img src="images/dest2.png">
+        <p>&#11088 4.5</p>
+        <p>Kina Mountain</p>
+        <p>&#8982 Cambodia</p>
+      </container>
+      <container class="dest-container">
+        <img src="images/dest3.png">
+        <p>&#11088 4.2</p>
+        <p>Kina Mountain</p>
+        <p>&#8982 Cambodia</p>
+      </container>
+      <container class="dest-container">
+        <img src="images/dest4.png">
+        <p>&#11088 4.5</p>
+        <p>Kina Mountain</p>
+        <p>&#8982 Cambodia</p>
+      </container>
+    </div>
+    <div class="commets">
+      <container class="comment-container">
+        <img src="images/commas.png">
+        <p>
+          Our trip to Morocco was truly a onece in a lifetime experience and we are so grateful to everyone that made it happen seamlessly. Our travel planner, Jaouad, was increadible.
+        </p>
+        <span>-Vand D</span>
+        <span>Happy Treloo</span>
+        <span>&#11088 4.5</span>
+        <img src="images/commenter1.png">
+      </container>
+      <container class="comment-container">
+        <img src="images/commas.png">
+        <p>
+          Our trip to Morocco was truly a onece in a lifetime experience and we are so grateful to everyone that made it happen seamlessly. Our travel planner, Jaouad, was increadible.
+        </p>
+        <span>-Tru Vio</span>
+        <span>Happy Treloo</span>
+        <span>&#11088 4.9</span>
+        <img src="images/commenter2.png">
+      </container>
+      <button>&#60</button>
+      <button>&#62</button>
+    </div>
+    <div class="discount">
+      <img src="images/earth.png">
+      <h1>Don’t Miss The 50% Discount if You register Today</h1>
+      <button>Register Today</button>
+    </div>
+    <footer>
+      <p>© 2022 Treloo LLC - All right reserved.</p>
+      <ul>
+        <li><a href="#">Review</a></li>
+        <li><a href="#">Tips</a></li>
+        <li><a href="#">Alerts</a></li>
+        <li><a href="#">Blog</a></li>
+    </ul>
+    </footer>
 </body>
 </html>
