@@ -8,18 +8,18 @@
 <body>
   <div class="header">
     <!-- background image in css  -->
-      <header class = "nav-bar">
-          <span class="logo">Trello</span>
-          <nav>
-            <ul>
-                <li><a href="#">Review</a></li>
-                <li><a href="#">Tips</a></li>
-                <li><a href="#">Alerts</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><button>Blog</button></li>
-            </ul>
-          </nav>
-        </header>
+      <header class="upper-bar">
+        <span class="logo">Trello</span>
+        <nav class="nav-bar">
+          <ul>
+              <li><a href="#">Review</a></li>
+              <li><a href="#">Tips</a></li>
+              <li><a href="#">Alerts</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><button>Blog</button></li>
+          </ul>
+        </nav>
+      </header>
     <main class="banner">
       <h1 class= "banner-header">
         Discover Your Life, Travel Where You Want
@@ -28,11 +28,12 @@
         Would you explore natur paradise in the world, let’s find the best destination in world with us.
       </p>
     </main>
-    <container class="trip-info">
-    <span class="buttons">
-      <button class="flight/hotel"> &#9992 Flight</button>
-      <button class="flight/hotel"> &#xf594 Hotel</button>
-    </span>
+  </div>
+  <div class="trip-info">
+    <div class="trip-buttons">
+      <button class="flight"> <img src="images/Airplane Mode On.png"> Flight</button>
+      <button class="flight/hotel"> <img src="images/Hotel Star.png"> Hotel</button>
+    </div>
     <section class="trip-details">
       <form class="destination">
         <label for="Leaving from">Leaving from</label>
@@ -54,7 +55,6 @@
       </form>
       <button> &#x1F50D</button>
     </section>
-    </container>
   </div>
     <div class="upcomming-offers">
       <h1>Special Upcoming Offers</h1>
