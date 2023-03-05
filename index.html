@@ -32,28 +32,45 @@
   <div class="trip-info">
     <div class="trip-buttons">
       <button class="flight"> <img src="images/Airplane Mode On.png"> Flight</button>
-      <button class="flight/hotel"> <img src="images/Hotel Star.png"> Hotel</button>
+      <button class="hotel"> <img src="images/Hotel Star.png"> Hotel</button>
     </div>
     <section class="trip-details">
       <form class="destination">
-        <label for="Leaving from">Leaving from</label>
-        <input class="input" type="search" placeholder="From">
+        <div class = "leaving-going">
+          <label for="Leaving from">Leaving from</label>
+          <span class="input">Dubai</span>
+        </div>
         <img src="images/Airplane Mode On (1).png">
-        <label for="Going to">Going to</label>
-        <input class="input" type = "search" placeholder="To">
+        <div class="leaving-going">
+          <label for="Going to">Going to</label>
+          <span class="input" >New York</span>
+        </div>
       </form>
       <form class="Date">
-        <label for="Leave">Leave &#9992</label>
-        <input type="date" id="start" name="trip-start"
-        value="2018-07-22"
-        min="2018-01-01" max="2018-12-31">
+        <div class="whole-leave">
+          <div class = "leave">
+            <label for="Leave">Leave</label>
+            <img src="images/Airplane Mode On.png">
+          </div>
+          <span class = "date">23 Jan, Sat</span>
+        </div>
         <img src="images/Planner.png">
-        <label for="Return">Return &#9992</label>
-        <input type="date" id="start" name="trip-start"
-        value="2018-07-22"
-        min="2018-01-01" max="2018-12-31">
+        <div class = "whole-return">
+          <div class = "return">
+            <label for="return">Return</label>
+            <img src="images/Airplane Mode On.png">
+          </div>
+          <span class = "date">14 Jan, Thu</span>
+        </div>
       </form>
-      <button> &#x1F50D</button>
+      <button class = "search-button" type="submit">
+         <!-- <img src="images/Rectangle 6 (1).png"> -->
+         <span class = "search-icon">
+          <ion-icon name="search"></ion-icon>
+         </span>
+      </button>
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     </section>
   </div>
     <div class="upcomming-offers">
@@ -70,57 +87,59 @@
         <label for="family">Family</label><br>
 
       </nav>
-      <container class="destination-container">
-        <img class = "destination-img" src = "images/offer1.png">
-        <span>14 feb 2022</span>
-        <main class="general-info">
-          <div class="type/duration">
-            <span>Relax</span>
-            <span>3 Days, 3 Nights</span>
-          </div>
-          <div class="location">
-            <h1>Loga sea</h1>
-          </div>
-          <div class="price">
-            <p>700$/Person</p>
-          </div>
-          <button>Book now</button>
-        </main>
-      </container>
-      <container class="destination-container">
-        <img class = "destination-img" src = "images/offer2.png">
-        <span>14 feb 2022</span>
-        <main class="general-info">
-          <div class="type/duration">
-            <span>Relax</span>
-            <span>3 Days, 3 Nights</span>
-          </div>
-          <div class="location">
-            <h1>Loga sea</h1>
-          </div>
-          <div class="price">
-            <p>700$/Person</p>
-          </div>
-          <button>Book now</button>
-        </main>
-      </container>
-      <container class="destination-container">
-        <img class = "destination-img" src = "images/offer3.png">
-        <span>14 feb 2022</span>
-        <main class="general-info">
-          <div class="type/duration">
-            <span>Relax</span>
-            <span>3 Days, 3 Nights</span>
-          </div>
-          <div class="location">
-            <h1>Loga sea</h1>
-          </div>
-          <div class="price">
-            <p>700$/Person</p>
-          </div>
-          <button>Book now</button>
-        </main>
-      </container>
+      <div class = "destinations">
+        <div class="destination-container">
+          <img class = "destination-img" src = "images/offer1.png">
+          <span>14 feb 2022</span>
+          <main class="general-info">
+            <div class="type/duration">
+              <span>Relax</span>
+              <span>3 Days, 3 Nights</span>
+            </div>
+            <div class="location">
+              <h1>Loga sea</h1>
+            </div>
+            <div class="price">
+              <p>700$/Person</p>
+            </div>
+            <button>Book now</button>
+          </main>
+        </div>
+        <div class="destination-container">
+          <img class = "destination-img" src = "images/offer2.png">
+          <span>14 feb 2022</span>
+          <main class="general-info">
+            <div class="type/duration">
+              <span>Relax</span>
+              <span>3 Days, 3 Nights</span>
+            </div>
+            <div class="location">
+              <h1>Loga sea</h1>
+            </div>
+            <div class="price">
+              <p>700$/Person</p>
+            </div>
+            <button>Book now</button>
+          </main>
+        </div>
+        <div class="destination-container">
+          <img class = "destination-img" src = "images/offer3.png">
+          <span>14 feb 2022</span>
+          <main class="general-info">
+            <div class="type/duration">
+              <span>Relax</span>
+              <span>3 Days, 3 Nights</span>
+            </div>
+            <div class="location">
+              <h1>Loga sea</h1>
+            </div>
+            <div class="price">
+              <p>700$/Person</p>
+            </div>
+            <button>Book now</button>
+          </main>
+        </div>
+      </div>
     </div>
     <div class="general-info">
       <div class="right-image">

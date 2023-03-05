@@ -102,7 +102,7 @@ line-height: 50px;
     padding: 15px 20px;
     color: black;
     border: none;
-    border-radius: 16px;
+    border-radius: 25px;
     font-size: 20px;
     margin: 6px 7px;
     display: flex;
@@ -110,6 +110,14 @@ line-height: 50px;
     width: 121px;
     align-items: center;
     justify-content: center;
+}
+
+.trip-buttons .flight{
+    background-color: rgba(62, 134, 245, 0.2);
+}
+
+.trip-buttons .hotel{
+    background-color: white;
 }
 
 
@@ -121,16 +129,89 @@ line-height: 50px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     
 }
-/* .buttons{
-display: inline-block;
-position: absolute;
-top: 85%;
-background-color: red;
-margin-left: 10%;
-border-radius: 5px;
-padding-inline: 20px;
-padding-top: 20px;
-} */
 
+
+.destination .leaving-going{
+    display: flex;
+    flex-direction: column;
+}
+
+.trip-details form{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 381px;
+    height: 154px;
+    border: 2px solid rgb(154, 149, 149);
+    border-radius: 20px;
+}
+
+.trip-details form .whole-leave .leave{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.trip-details form .whole-leave img{
+    transform: rotate(45deg);
+    width: 40%;
+    height: auto;
+}
+
+.trip-details form .whole-return img{
+    transform: rotate(-135deg);
+    width: 40%;
+    height: auto;
+}
+
+.trip-details form .whole-return .return{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.search-button {
+    background-color: rgba(62, 134, 245, 0.8);
+    width: 154px;
+    height: 154px;
+    border-radius: 65px;
+    border: none;
+  }
+
+.trip-details{
+    align-items: center;
+    justify-self: center;
+}
+
+.search-button .search-icon{
+    /* display: flex; */
+    align-items: center;
+    padding: 0 24px;
+    color: white;
+    height: 100%;
+}
+
+.upcomming-offers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.upcomming-offers .destinations{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.upcomming-offers .destinations .destination-container{
+    background-color: white;
+}
+  
