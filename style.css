@@ -459,3 +459,113 @@ line-height: 50px;
     color: white;
 }
 
+.recomended-dest{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 600px;
+
+}
+
+
+
+
+.recomended-dest .destination-type{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 340px;
+    height: 66px;
+    border-radius: 13px;
+}
+
+.recomended-dest .destination-type a{ 
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+    width: 100px;
+    height: 46px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 13px;
+}
+
+.recomended-dest .destination-type .blue-div{
+    background-color: white;
+    color:rgba(62, 134, 245, 0.8)
+    
+}
+
+.recomended-dest .containers{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    height: 280px;
+    width: 1200px;
+}
+
+.recomended-dest .containers .dest-container{
+    background-color: white;
+    height: 293px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.recomended-dest .containers .dest-container img{
+    height: 200px;
+    width: 260px;
+}
+
+.page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 150px 10px;
+}
+
+.page .comments{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1300px;
+    height: 500px;
+}
+
+.page .comments .comment-container{
+    width: 580px;
+    height: 410px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 38px;
+}
+
+.discount{
+    background-image: url("images/earth.png");
+    /* height: 100vh;
+    width: 100vw; */
+    width: 1180px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+

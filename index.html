@@ -164,45 +164,48 @@
       <h1>
         Recommended Destination
       </h1>
-      <nav class = "type">
 
-        <input type="radio" id="popular" value="popular">
-        <label for="popular">Popular</label><br>
-
-        <input type="radio" id="adventure" value="Adventure">
-        <label for="adventure">Adventure</label><br>
-
-        <input type="radio" id="beath" value="Beath">
-        <label for="beath">Beath</label><br>
-
-      </nav>
-      <container class="dest-container">
-        <img src="images/dest1.png">
-        <p>&#11088 3.4</p>
-        <p>Kina Mountain</p>
-        <p>&#8982 Cambodia</p>
-      </container>
-      <container class="dest-container">
-        <img src="images/dest2.png">
-        <p>&#11088 4.5</p>
-        <p>Kina Mountain</p>
-        <p>&#8982 Cambodia</p>
-      </container>
-      <container class="dest-container">
-        <img src="images/dest3.png">
-        <p>&#11088 4.2</p>
-        <p>Kina Mountain</p>
-        <p>&#8982 Cambodia</p>
-      </container>
-      <container class="dest-container">
-        <img src="images/dest4.png">
-        <p>&#11088 4.5</p>
-        <p>Kina Mountain</p>
-        <p>&#8982 Cambodia</p>
-      </container>
+      <div class = "destination-type">
+        <a class = "blue-div" href="#">Popular</a>
+        <a href="#">Adventure</a>
+        <a href="#">Beath</a>
+      </div>
+      <div class = "containers">
+        <div class="dest-container">
+          <img src="images/dest1.png">
+          <main class = "info">
+            <p>&#11088 3.4</p>
+            <p>Kina Mountain</p>
+            <p>&#8982 Cambodia</p>
+          </main>
+        </div>
+        <div class="dest-container">
+          <img src="images/dest2.png">
+          <main class = "info">
+            <p>&#11088 3.4</p>
+            <p>Kina Mountain</p>
+            <p>&#8982 Cambodia</p>
+          </main>
+        </div>
+        <div class="dest-container">
+          <img src="images/dest3.png">
+          <main class = "info">
+            <p>&#11088 3.4</p>
+            <p>Kina Mountain</p>
+            <p>&#8982 Cambodia</p>
+          </main>
+        </div>
+        <div class="dest-container">
+          <img src="images/dest4.png">
+          <p>&#11088 4.5</p>
+          <p>Kina Mountain</p>
+          <p>&#8982 Cambodia</p>
+        </div>
+      </div>
     </div>
-    <div class="commets">
-      <container class="comment-container">
+    <div class = "page">
+    <div class="comments">
+      <div class="comment-container">
         <img src="images/commas.png">
         <p>
           Our trip to Morocco was truly a onece in a lifetime experience and we are so grateful to everyone that made it happen seamlessly. Our travel planner, Jaouad, was increadible.
@@ -211,8 +214,8 @@
         <span>Happy Treloo</span>
         <span>&#11088 4.5</span>
         <img src="images/commenter1.png">
-      </container>
-      <container class="comment-container">
+      </div>
+      <div class="comment-container">
         <img src="images/commas.png">
         <p>
           Our trip to Morocco was truly a onece in a lifetime experience and we are so grateful to everyone that made it happen seamlessly. Our travel planner, Jaouad, was increadible.
@@ -221,23 +224,27 @@
         <span>Happy Treloo</span>
         <span>&#11088 4.9</span>
         <img src="images/commenter2.png">
-      </container>
+      </div>
+    </div>
+    `<div>
+
       <button>&#60</button>
       <button>&#62</button>
     </div>
+    </div>
     <div class="discount">
-      <img src="images/earth.png">
+      <!-- <img src="images/earth.png"> -->
       <h1>Don’t Miss The 50% Discount if You register Today</h1>
       <button>Register Today</button>
     </div>
     <footer>
       <p>© 2022 Treloo LLC - All right reserved.</p>
-      <ul>
-        <li><a href="#">Review</a></li>
-        <li><a href="#">Tips</a></li>
-        <li><a href="#">Alerts</a></li>
-        <li><a href="#">Blog</a></li>
-    </ul>
+      <div>
+        <a href="#">Review</a>
+        <a href="#">Tips</a>
+        <a href="#">Alerts</a>
+        <a href="#">Blog</a>
+      </div>
     </footer>
 </body>
 </html>
