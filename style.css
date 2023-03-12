@@ -547,7 +547,114 @@ line-height: 50px;
     background-color: white;
     margin: 20px;
     border-radius: 38px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
+
+.page .comments .comment-container .background{
+    z-index: 1;
+    position: relative;
+    top: 27%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+}
+.page .comments .comment-container p{
+    width: 508px;
+    height: 167px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 42px;
+    text-align: center
+}
+
+.page .comments .comment-container .author{
+    width: 86px;
+    height: 42px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 42px;
+    color: #3E86F5;
+}
+
+.page .comments .comment-container .title{
+    width: 134px;
+    height: 42px; 
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 42px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.page .comments .comment-container .oval{
+    width: 179.5px;
+    height: 134px;
+    position: relative;
+    top: 18%;
+    left: 16%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60%;
+}
+
+.page .comments .comment-container .oval .rating{
+    position: relative;
+    width: 45px;
+    height: 20px;
+    border-radius: 25px;
+    top: 35%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    gap: 4px;
+    
+}
+
+.page .comments .comment-container .oval .comm-img{
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.page .buttons{
+    display: flex;
+    align-items: center;
+}
+
+.page .buttons button{
+    box-sizing: border-box;
+    width: 40px;
+    height: 40px;
+    border: 2px solid rgba(62, 134, 245, 0.5);
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.page .buttons button img{
+    padding: auto;
+}
+
+.page .buttons button .reversed{
+    transform: rotate(180deg);
+}
+
 
 .discount{
     background-image: url("images/earth.png");
@@ -563,9 +670,61 @@ line-height: 50px;
 
 }
 
+.discount h1{
+    width: 743px;
+    height: 151px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.discount button{
+    width: 220px;
+    height: 80px;
+    background: #FFFFFF;
+    border-radius: 25px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #3E86F5;
+    }
+
 footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+footer .links{
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 150px;
+}
+
+footer .links a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-decoration: none;
+    margin: 30px;
+    color: rgba(0, 0, 0, 0.75)
+    }
+
+footer p{
+    margin-left: 150px;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 42px;
 }
 
