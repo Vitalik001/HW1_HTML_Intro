@@ -54,12 +54,14 @@ margin: 0 10px;
 
 .nav-bar ul li button{
 background-color: white;
-height: 40px;
-width: 100px;
+width: 141px;
+height: 65px;
+border-radius: 10px;
 color: blue;
 border: none;
-border-radius: 5px;
-font-size: 20px;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
 }
 .banner{
 color: white;
@@ -96,6 +98,8 @@ line-height: 50px;
     border-top-right-radius: 20px;
     align-items: center;
     justify-content: center;
+    z-index: 1;
+    margin-bottom: -5px;
 }
 
 .trip-buttons button{
@@ -205,6 +209,9 @@ line-height: 50px;
 }
 .upcomming-offers h1{
     margin: 40px;
+    font-weight: 600;
+font-size: 48px;
+line-height: 72px;
 }
 
 .upcomming-offers .destination-type{
@@ -215,7 +222,9 @@ line-height: 50px;
     width: 340px;
     height: 66px;
     border-radius: 13px;
-}
+    margin-bottom: 20px;
+    margin-top: 40px;
+}   
 
 .upcomming-offers .destination-type a{ 
     text-decoration: none;
@@ -246,7 +255,7 @@ line-height: 50px;
 .upcomming-offers .destinations .destination-container{
     background-color: white;
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     height: 457px;
     width: 380px;
     flex-direction: column;
@@ -271,6 +280,13 @@ line-height: 50px;
 .upcomming-offers .destinations .destination-container .image-date span{
     writing-mode: vertical-rl;
     text-orientation: mixed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.5em;
+    color: rgba(0, 0, 0, 0.5);
+
 
 }
 
@@ -279,13 +295,14 @@ line-height: 50px;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    margin-left: 30px;
 }
 
 .upcomming-offers .destinations .destination-container main .left-part{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .upcomming-offers .destinations .destination-container main .left-part h1{
@@ -295,6 +312,72 @@ line-height: 50px;
     font-size: 24px;
     line-height: 36px;
     margin: 10px 20px;
+}
+
+.upcomming-offers .destinations .destination-container .general-info .left-part .type-duration{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 190px;
+}
+
+.upcomming-offers .destinations .destination-container .general-info .left-part .type-duration .type{
+    width: 38px;
+    height: 21px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    background: #FCDDEC;
+    border-radius: 100px;
+    width: 69px;
+    height: 21px;
+    color: #F178B6;
+    text-align: center;
+
+}
+
+.upcomming-offers .destinations .destination-container .general-info .left-part p{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.upcomming-offers .destinations .destination-container .general-info .left-part p span{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 36px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.upcomming-offers .destinations .destination-container .general-info .left-part .price-book{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 290px;
+}
+
+.upcomming-offers .destinations .destination-container .general-info .left-part .type-duration .duration{
+    width: 111px;
+height: 21px;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+.upcomming-offers .destinations .destination-container .general-info button{
+    width: 107px;
+height: 47px;
+background: #F2F6FF;
+border-radius: 10px;
+border: 0;
+color: #3E86F5;
+}
+
+.upcomming-offers .destinations .destination-container .general-info .left-part h1{
+    margin-left: 0px;
 }
 
 .generalinfo{
@@ -519,9 +602,67 @@ line-height: 50px;
     align-items: center;
 }
 
-.recomended-dest .containers .dest-container img{
+.recomended-dest .containers .dest-container .main-photo{
     height: 200px;
     width: 260px;
+}
+
+.recomended-dest .containers .dest-container .rating{
+    position: relative;
+    width: 55px;
+    height: 20px;   
+    border-radius: 25px;
+    bottom: 60%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    gap: 4px;
+}
+
+.recomended-dest .containers .dest-container .info{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+    top: 7%;
+    left: 8%;
+    transform: translate(-50%, -50%);
+}
+
+
+.recomended-dest .containers .dest-container .info .main{
+    width: 133px;
+    height: 27px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+
+}
+
+.recomended-dest .containers .dest-container .info .location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recomended-dest .containers .dest-container .info .location p{
+    width: 76px;
+    height: 21px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 0.5);
 }
 
 .page{
