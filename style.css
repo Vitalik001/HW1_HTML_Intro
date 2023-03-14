@@ -12,13 +12,13 @@ body {
     background-color: #F5F5F5;
     font-weight: 500;
     font-style: normal;
-    
 }
 
 .header {
 background-image: url("images/header.png");
 height: 100vh;
 width: 100vw;
+background-size: cover;
 }
 
 .upper-bar {
@@ -72,15 +72,16 @@ transform: translateY(-50%);
 top: 50%;
 }
 .banner-header{
-font-size: 70px;
 margin-top: 80px;
 padding-inline: 250px;
+font-size: 64px;
+line-height: 96px;
 }
 .banner-text{
 margin-top: 30px;
-font-size: 30px;
 padding-inline: 300px;
-line-height: 50px;
+font-size: 24px;
+line-height: 200%;
 }
 
 .trip-info{
@@ -284,6 +285,7 @@ line-height: 36px;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .upcomming-offers .destinations .destination-container{
@@ -335,8 +337,7 @@ line-height: 36px;
 }
 
 .upcomming-offers .destinations .destination-container main .left-part h1{
-    height: 36px;
-    width: 111px;
+    padding: 0% 1%;
     font-size: 24px;
     line-height: 36px;
     margin: 10px 20px;
@@ -346,7 +347,7 @@ line-height: 36px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 190px;
+    padding: 0% 1%;
 }
 
 .upcomming-offers .destinations .destination-container .general-info .left-part .type-duration .type{
@@ -354,11 +355,19 @@ line-height: 36px;
     line-height: 21px;
     background: #FCDDEC;
     border-radius: 100px;
-    width: 69px;
-    height: 21px;
+    padding: 2px 17px;
     color: #F178B6;
     text-align: center;
 
+}
+.upcomming-offers .destinations .destination-container .general-info .left-part .type-duration .type2{
+    font-size: 14px;
+    line-height: 21px;
+    background: #F1F1FD;
+    border-radius: 100px;
+    color: #7879F1;
+    padding: 5px 10px;
+    text-align: center;
 }
 
 .upcomming-offers .destinations .destination-container .general-info .left-part p{
@@ -380,14 +389,17 @@ line-height: 36px;
 }
 
 .upcomming-offers .destinations .destination-container .general-info .left-part .type-duration .duration{
-    width: 111px;
-    height: 21px;
+    padding: 2px 10px;
+    text-align: center;
     font-size: 14px;
     line-height: 21px;
     color: rgba(0, 0, 0, 0.5);
 }
 
-
+.upcomming-offers .destinations .destination-container .general-info{
+    margin-top: -5px;
+    margin-left: 20px;
+}
 
 .upcomming-offers .destinations .destination-container .general-info button{
     width: 107px;
@@ -405,7 +417,7 @@ line-height: 36px;
 .generalinfo{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     margin: 100px;
     
@@ -423,7 +435,7 @@ line-height: 36px;
     background-color: white;
     height: 120px;
     width: 180px;
-    border-radius: 23px;
+    border-radius: 26px;
     position: absolute;
 }
 
@@ -437,6 +449,7 @@ line-height: 36px;
     font-weight: 300;
     font-size: 18px;
     line-height: 27px;
+    margin-top: -10px;
 } 
 
 .generalinfo .right-image .first{
@@ -466,6 +479,11 @@ line-height: 36px;
     width: 500px;
 }
 
+.generalinfo .left-text h1{
+    font-size: 48px;
+line-height: 72px;
+}
+
 .generalinfo .left-text p{
     font-weight: 300;
     font-size: 20px;
@@ -493,6 +511,11 @@ line-height: 36px;
     align-items: center;
     height: 600px;
 
+}
+
+.recomended-dest h1{
+    font-size: 48px;
+    line-height: 72px;
 }
 
 .recomended-dest .destination-type{
@@ -526,8 +549,7 @@ line-height: 36px;
     display: flex;
     justify-content: space-around;
     align-content: center;
-    height: 280px;
-    width: 1200px;
+    flex-wrap: wrap;
 }
 
 .recomended-dest .containers .dest-container{
@@ -539,6 +561,7 @@ line-height: 36px;
     border-radius: 20px;
     justify-content: center;
     align-items: center;
+    margin: 10px;
 }
 
 .recomended-dest .containers .dest-container .main-photo{
