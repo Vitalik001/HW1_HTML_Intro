@@ -95,9 +95,10 @@ line-height: 200%;
 }
 
 .trip-info{
-    transform: translateY(-60%);
+    /* transform: translateY(-60%); */
     /* width: 1180px; */
     margin: 70px;
+    margin-top: -11vw;
 
 }
 .trip-buttons{
@@ -412,13 +413,6 @@ line-height: 36px;
     line-height: 21px;
     color: rgba(0, 0, 0, 0.5);
 }
-
-/* .upcomming-offers .destinations .destination-container .general-info{
-    margin-top: -5px;
-    margin-left: 20px;
-    display: flex;
-    flex-wrap: wrap;
-} */
 
 .upcomming-offers .destinations .destination-container .general-info button{
     width: 107px;
